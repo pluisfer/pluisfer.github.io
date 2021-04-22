@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+body {
+    font-family: 'Merienda', cursive;
+    font-size: 13px;
+    background-image: url("https://www.pexels.com/es-es/foto/arbol-de-flor-de-cerezo-junto-al-puente-negro-460635/");
+    background-repeat: no-repeat;
+}
