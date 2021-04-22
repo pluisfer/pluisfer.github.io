@@ -4,17 +4,37 @@
     padding: 0;
     margin: 0;
     box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+}
+
+body {
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    color: white;
+}
+
+.container {
+    background-image: url("https://images.pexels.com/photos/4334094/pexels-photo-4334094.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+
 }
 
 
 
 
 
-body {
-    font-family: 'Merienda', cursive;
-    font-size: 13px;
-    background-image: url("https://www.pexels.com/es-es/foto/arbol-de-flor-de-cerezo-junto-al-puente-negro-460635/");
-    background-repeat: no-repeat;
+.photo {
+    border-radius: 80px;
+    border: solid 5px white;
+    width: 140px;
+    height: 140px;
 }
